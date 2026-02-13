@@ -1,10 +1,5 @@
 # dados-atletas
 
-Perfeito 👏
-Vou montar um README completo, profissional e por extenso, bem explicado, ideal para chamar atenção de recrutadores.
-
-Você pode copiar tudo abaixo e colar no seu README.md.
-
 🏅 Projeto de Certificação 2 – Dados dos Atletas
 📌 Descrição do Projeto
 
