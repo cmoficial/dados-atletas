@@ -1,4 +1,4 @@
-🏅 Sistema de Avaliação de Atletas
+<H1>🏅 Sistema de Avaliação de Atletas</H1>
 
 
 
@@ -129,9 +129,6 @@ git clone https://github.com/seuusuario/sistema-atletas.git
 2️⃣ Acesse a pasta
 cd sistema-atletas
 
-3️⃣ Execute com Node.js
-node dados-atletas.js
-
 📁 Estrutura do Projeto
 📦 sistema-atletas
  ┣ 📜 dados-atletas.js
@@ -140,20 +137,14 @@ node dados-atletas.js
 🧪 Possíveis Melhorias Futuras
 
 Adicionar interface web
-
 Criar validação de dados
-
 Transformar em API
-
 Implementar testes automatizados
-
 Modularizar o código
 
 👨‍💻 Autor
-
 Arthur Hofelder
 Estudante de Análise e Desenvolvimento de Sistemas
 
 📌 Conclusão
-
 Este projeto tem como objetivo demonstrar meu domínio dos fundamentos de JavaScript e de Programação Orientada a Objetos, além da minha capacidade de interpretar requisitos e transformá-los em código funcional, organizado e alinhado às boas práticas de desenvolvimento.
