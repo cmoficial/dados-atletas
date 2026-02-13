@@ -66,15 +66,15 @@ class Atleta
 
 🔹 Atributos:
 Atributo	Tipo	Descrição
--------------------------------------
+
 nome	   string	Nome do atleta
--------------------------------------
+
 idade	   number	Idade do atleta
--------------------------------------
+
 peso	   number	Peso em kg
--------------------------------------
+
 altura	   number	Altura em metros
--------------------------------------
+
 notas	   array	Lista de notas recebidas
 
 
@@ -83,13 +83,13 @@ notas	   array	Lista de notas recebidas
 A categoria é definida com base na idade:
 
 Faixa Etária	Categoria
--------------------------------------
+
 9 a 11 anos	    Infantil
--------------------------------------
+
 12 a 13 anos	Juvenil
--------------------------------------
+
 14 a 15 anos	Intermediário
--------------------------------------
+
 16 a 30 anos	Adulto
 
 Fora dessas faixas	Sem categoria
