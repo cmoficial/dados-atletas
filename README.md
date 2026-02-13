@@ -1,8 +1,3 @@
-Perfeito.
-Abaixo está uma versão nível portfólio profissional, bem estruturada, clara, organizada e com padrão de README usado em projetos reais no GitHub.
-
-Você pode copiar e colar direto no seu README.md.
-
 🏅 Sistema de Avaliação de Atletas
 
 
