@@ -64,17 +64,17 @@ Este projeto reforça a base necessária para construção de sistemas mais comp
 🏗 Estrutura da Classe
 class Atleta
 
-🔹 Atributos
+🔹 Atributos:
 Atributo	Tipo	Descrição
-
+-------------------------------------
 nome	   string	Nome do atleta
-
+-------------------------------------
 idade	   number	Idade do atleta
-
+-------------------------------------
 peso	   number	Peso em kg
-
+-------------------------------------
 altura	   number	Altura em metros
-
+-------------------------------------
 notas	   array	Lista de notas recebidas
 
 
@@ -83,13 +83,13 @@ notas	   array	Lista de notas recebidas
 A categoria é definida com base na idade:
 
 Faixa Etária	Categoria
-
+-------------------------------------
 9 a 11 anos	    Infantil
-
+-------------------------------------
 12 a 13 anos	Juvenil
-
+-------------------------------------
 14 a 15 anos	Intermediário
-
+-------------------------------------
 16 a 30 anos	Adulto
 
 Fora dessas faixas	Sem categoria
@@ -124,14 +124,23 @@ const atleta = new Atleta(
 );
 
 🖥 Saída Esperada
+
 Nome: Cesar Abascal
+
 Idade: 30
+
 Peso: 80
+
 Altura: 1.7
+
 Notas: 10,9.34,8.42,10,7.88
+
 Categoria: Adulto
+
 IMC: 27.68166089965398
+
 Média válida: 9.253333333333332
+
 
 ▶ Como Executar o Projeto
 1️⃣ Clone o repositório
