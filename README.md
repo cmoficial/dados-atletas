@@ -1,137 +1,112 @@
-# dados-atletas
+Perfeito.
+Abaixo está uma versão nível portfólio profissional, bem estruturada, clara, organizada e com padrão de README usado em projetos reais no GitHub.
 
-🏅 Projeto de Certificação 2 – Dados dos Atletas
-📌 Descrição do Projeto
+Você pode copiar e colar direto no seu README.md.
 
-Este projeto foi desenvolvido como parte do Projeto de Certificação 2 do programa DEVstart.
+🏅 Sistema de Avaliação de Atletas
 
-A proposta consiste em criar uma aplicação utilizando JavaScript orientado a objetos, capaz de:
 
-Receber os dados de um atleta
 
-Calcular sua categoria com base na idade
 
-Calcular seu IMC (Índice de Massa Corporal)
 
-Calcular sua média válida com base nas notas recebidas
 
-Exibir todas as informações no console
 
-O objetivo principal foi aplicar conceitos fundamentais de Programação Orientada a Objetos (POO) em JavaScript, organizando atributos e métodos dentro de uma classe.
 
-🎯 Objetivo da Aplicação
+📌 Sobre o Projeto
 
-A aplicação simula o sistema de cadastro e avaliação de atletas de uma competição.
+Este projeto foi desenvolvido como parte do Projeto de Certificação 2 – DEVstart.
 
-A partir dos dados fornecidos, o sistema é capaz de determinar:
+A aplicação simula o sistema de cadastro e avaliação de atletas em uma competição, utilizando Programação Orientada a Objetos (POO) em JavaScript.
 
-A categoria do atleta
+A partir dos dados fornecidos, o sistema:
 
-Seu índice de massa corporal (IMC)
+📂 Armazena as informações do atleta
 
-Sua média válida (descartando a maior e menor nota)
+🏷 Determina sua categoria com base na idade
 
-Tudo isso utilizando boas práticas de organização de código.
+⚖ Calcula o IMC (Índice de Massa Corporal)
 
-🧠 Conceitos Aplicados
+📊 Calcula a média válida descartando a maior e menor nota
 
-Durante o desenvolvimento foram utilizados os seguintes conceitos:
+🖥 Exibe todas as informações formatadas no console
 
-Classes em JavaScript
+🎯 Objetivo
 
-Construtores
+Aplicar conceitos fundamentais de desenvolvimento em JavaScript, com foco em:
 
-Métodos
+Organização de código
 
-Encapsulamento
+Estruturação com classes
 
-Estruturas condicionais (if / else)
-
-Laços de repetição (for)
+Métodos e encapsulamento
 
 Manipulação de arrays
 
+Lógica condicional
+
 Cálculos matemáticos
 
+Este projeto reforça a base necessária para construção de sistemas mais complexos.
+
+🧠 Conceitos Aplicados
+
+✔ Classes (ES6)
+
+✔ Construtor
+
+✔ Métodos de instância
+
+✔ Encapsulamento
+
+✔ Estruturas condicionais (if / else)
+
+✔ Laços de repetição (for)
+
+✔ Manipulação de arrays
+
+✔ Regras de negócio
+
 🏗 Estrutura da Classe
-
-A classe criada foi chamada:
-
 class Atleta
 
-🔹 Atributos:
+🔹 Atributos
+Atributo	Tipo	Descrição
+nome	   string	Nome do atleta
+idade	   number	Idade do atleta
+peso	   number	Peso em kg
+altura	   number	Altura em metros
+notas	   array	Lista de notas recebidas
 
-nome
+⚙️ Funcionalidades
+🏷 1️⃣ Cálculo da Categoria
+A categoria é definida com base na idade:
 
-idade
+Faixa Etária	Categoria
+9 a 11 anos	    Infantil
+12 a 13 anos	Juvenil
+14 a 15 anos	Intermediário
+16 a 30 anos	Adulto
+Fora dessas faixas	Sem categoria
 
-peso
-
-altura
-
-notas
-
-Esses atributos são definidos no momento da criação do objeto.
-
-⚙️ Métodos Implementados
-📌 Métodos de Cálculo
-
-calculaCategoria()
-Determina a categoria do atleta com base na idade.
-
-calculaIMC()
-Calcula o IMC utilizando a fórmula:
+⚖ 2️⃣ Cálculo do IMC
+Fórmula aplicada:
 
 IMC = peso / (altura × altura)
 
+📊 3️⃣ Cálculo da Média Válida
+Regras:
 
-calculaMediaValida()
-Calcula a média válida do atleta descartando:
+Soma todas as notas
 
-A maior nota
+Identifica a maior nota
 
-A menor nota
+Identifica a menor nota
 
-📌 Métodos de Obtenção (Getters)
+Remove ambas do cálculo
 
-obtemNomeAtleta()
+Divide pelo total restante
 
-obtemIdadeAtleta()
-
-obtemPesoAtleta()
-
-obtemNotasAtleta()
-
-obtemCategoria()
-
-obtemIMC()
-
-obtemMediaValida()
-
-Esses métodos retornam as informações calculadas ou armazenadas no objeto.
-
-📊 Regras Utilizadas
-🏅 Categoria por Idade
-Idade	Categoria
-9 a 11 anos	Infantil
-12 e 13 anos	Juvenil
-14 e 15 anos	Intermediário
-16 a 30 anos	Adulto
-Demais idades	Sem categoria
-⚖️ Cálculo do IMC
-IMC = peso / (altura x altura)
-
-📝 Cálculo da Média Válida
-
-Soma todas as notas.
-
-Identifica a maior nota.
-
-Identifica a menor nota.
-
-Remove ambas do cálculo.
-
-Divide pelo total restante.
+Isso simula o modelo de avaliação utilizado em competições esportivas.
 
 🚀 Exemplo de Execução
 const atleta = new Atleta(
@@ -142,7 +117,7 @@ const atleta = new Atleta(
     [10, 9.34, 8.42, 10, 7.88]
 );
 
-🖥 Saída no Console
+🖥 Saída Esperada
 Nome: Cesar Abascal
 Idade: 30
 Peso: 80
@@ -152,29 +127,38 @@ Categoria: Adulto
 IMC: 27.68166089965398
 Média válida: 9.253333333333332
 
-▶️ Como Executar o Projeto
+▶ Como Executar o Projeto
+1️⃣ Clone o repositório
+git clone https://github.com/seuusuario/sistema-atletas.git
 
-Clone o repositório:
+2️⃣ Acesse a pasta
+cd sistema-atletas
 
-git clone https://github.com/seuusuario/dados-atletas.git
-
-
-Acesse a pasta do projeto:
-
-cd dados-atletas
-
-
-Execute com Node.js:
-
+3️⃣ Execute com Node.js
 node dados-atletas.js
+
+📁 Estrutura do Projeto
+📦 sistema-atletas
+ ┣ 📜 dados-atletas.js
+ ┗ 📜 README.md
+
+🧪 Possíveis Melhorias Futuras
+
+Adicionar interface web
+
+Criar validação de dados
+
+Transformar em API
+
+Implementar testes automatizados
+
+Modularizar o código
 
 👨‍💻 Autor
 
 Arthur Hofelder
 Estudante de Análise e Desenvolvimento de Sistemas
 
-📌 Considerações Finais
+📌 Conclusão
 
-Este projeto demonstra a aplicação prática de Programação Orientada a Objetos em JavaScript, organização de código e implementação de regras de negócio baseadas em requisitos definidos.
-
-Além de atender às especificações propostas, o projeto reforça a importância da estruturação correta de classes e métodos, preparando a base para sistemas mais complexos no futuro.
+Este projeto tem como objetivo demonstrar meu domínio dos fundamentos de JavaScript e de Programação Orientada a Objetos, além da minha capacidade de interpretar requisitos e transformá-los em código funcional, organizado e alinhado às boas práticas de desenvolvimento.
